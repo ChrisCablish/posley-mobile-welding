@@ -91,11 +91,16 @@ body {
     gap: 1rem;
 }
 
-.fb-post {
-    width: 80%;
-}
-
-.proofing {
-    display: flex;
+.postWrapper {
     
 }
+
+.fb-post {
+    width: 100%;
+}
+
+.proofingContainer {
+    display: flex;
+    gap: 1rem;
+}
+
