@@ -101,3 +101,24 @@ body {
     align-items: center;
 
 }
+
+/* .proofing {
+    background-image: url('./assets/images/action-1.JPG');
+    background-repeat: no-repeat;
+    background-position: 0%;
+    background-size: cover;
+    position: relative;
+    
+}
+
+.proofing::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:  rgba(33, 37, 41, 0.9);
+    z-index: 0;
+} */
+
