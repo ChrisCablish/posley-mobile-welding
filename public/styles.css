@@ -68,39 +68,36 @@ body {
     height: auto;  
 }
 
-.carouselWrapper {
+ .carouselWrapper {
+    /* display: flex;
+    justify-content: center; */
+    width: 350px;
+}
+
+.carousel-column {
     display: flex;
     justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+.fb-post {
+    margin-top: 2rem;
+}
+
+.fb-post-1 {
+    align-self: flex-start;
+}
+
+.fb-post-2 {
+    align-self: flex-end;
 }
 
 
-.carousel {
-    border-radius: 1rem;
-    overflow: hidden;
-}
-    
-.gallery {
-    text-align: center;
-}
-
-.testimonialSection {
+.flex-col-liner {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
-}
 
-.postWrapper {
-    
 }
-
-.fb-post {
-    width: 100%;
-}
-
-.proofingContainer {
-    display: flex;
-    gap: 1rem;
-}
-
