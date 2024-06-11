@@ -6,6 +6,7 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  height: 100vh;
 }
 
 .hero{
@@ -32,13 +33,24 @@ body {
     font-size: 1rem;
 }
 
+.description-col{
+    display: flex;
+}
+
+.heroDescription {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .heroWrapper{
     display: flex;
     justify-content: center;
 }
 
 .heroImage{
-    width: 100%;
+    width: 80%;
     height: auto;
     border-radius: 1rem;
 }
@@ -54,4 +66,36 @@ body {
 .logo {
     width: 80px;
     height: auto;  
+}
+
+.carouselWrapper {
+    display: flex;
+    justify-content: center;
+}
+
+
+.carousel {
+    border-radius: 1rem;
+    overflow: hidden;
+}
+    
+.gallery {
+    text-align: center;
+}
+
+.testimonialSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.fb-post {
+    width: 80%;
+}
+
+.proofing {
+    display: flex;
+    
 }
