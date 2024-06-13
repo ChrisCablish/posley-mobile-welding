@@ -29,7 +29,9 @@
     <script
       async
       defer
-      src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"
+      crossorigin="anonymous"
+      src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v20.0"
+      nonce="I010yUaY"
     ></script>
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -72,8 +74,8 @@
 
     <section class="hero off-white bg-dark">
       <div class="container">
-        <div class="row">
-          <div class="col-md">
+        <div class="row hero-row">
+          <div class="col-md hero-col">
             <div class="heroWrapper">
               <img
                 src="./assets/images/posley_family_cropped.jpg"
@@ -92,68 +94,28 @@
                 nulla pariatur. Excepteur sint occaecat cupidatat non proident,
                 sunt in culpa qui officia deserunt mollit anim id est laborum
               </p>
+              <!-- HTML !-->
+              <button class="button-5" role="button">Contact</button>
             </div>
           </div>
         </div>
       </div>
     </section>
 
+    <section class="logoSection off-white bg-dark">
+      <div class="logoWrapper">
+        <img
+          src="./assets/images/posley-mobile-welding-logo-cropped.svg"
+          alt="Posely Mobile Welding"
+        />
+      </div>
+    </section>
+
     <section class="proofing off-white bg-dark">
       <div class="container">
         <div class="row">
-          <div class="col-md">
-            <!--FACEBOOK POSTS COL-->
-            <div class="flex-col-liner">
-              <div
-                class="fb-post-1 fb-post"
-                data-href="https://www.facebook.com/cody.wibbenmeyer/posts/pfbid0353xJJ7kPzLBb7fY8mJomL3jmDMhuuaH9d7JvFD2wMkGphXzzzinWd8337S8tR4cpl"
-                data-width="350"
-                data-show-text="true"
-              >
-                <blockquote
-                  cite="https://www.facebook.com/cody.wibbenmeyer/posts/10225752953444869"
-                  class="fb-xfbml-parse-ignore"
-                >
-                  <p>
-                    got the job done I wanted even when I threw curveballs into
-                    the mix with not being there and then having to come stop...
-                  </p>
-                  Posted by
-                  <a href="#" role="button">Cody Wibbenmeyer</a> on&nbsp;<a
-                    href="https://www.facebook.com/cody.wibbenmeyer/posts/10225752953444869"
-                    >Monday, January 24, 2022</a
-                  >
-                </blockquote>
-              </div>
-              <div
-                class="fb-post-2 fb-post"
-                data-href="https://www.facebook.com/andy.weber.5682/posts/pfbid0k5fQaE46FzuuGFJeG24L9UHj5y4fjDoFyjf1Fmwd5URJ5xZtoT6CioSo7Er3441il"
-                data-width="350"
-                data-show-text="true"
-              >
-                <blockquote
-                  cite="https://www.facebook.com/andy.weber.5682/posts/10160557621352597"
-                  class="fb-xfbml-parse-ignore"
-                >
-                  <p>
-                    Justin was great to work with! He is very knowledgeable and
-                    thorough. He continues to go above and beyond in every
-                    project I send his way because of this I wouldn’t call
-                    anyone else.
-                  </p>
-                  Posted by
-                  <a href="https://www.facebook.com/andy.weber.5682"
-                    >Andy Weber</a
-                  >
-                  on&nbsp;<a
-                    href="https://www.facebook.com/andy.weber.5682/posts/10160557621352597"
-                    >Tuesday, March 28, 2023</a
-                  >
-                </blockquote>
-              </div>
-            </div>
-          </div>
-          <div class="col-md carousel-column"> <!--CAROUSEL COL-->
+          <div class="col-lg-8 carousel-column">
+            <!--CAROUSEL COL-->
             <div class="carouselWrapper">
               <div
                 id="carouselExampleSlidesOnly"
@@ -193,8 +155,58 @@
               </div>
             </div>
           </div>
+          <div class="col-lg-4">
+            <!--FACEBOOK POSTS COL-->
+            <div class="flex-col-liner">
+              <div
+                class="fb-post"
+                data-href="https://www.facebook.com/andy.weber.5682/posts/pfbid0juWQH5nMSNMjupkAmtGrCwG5mfnUCHtUbowg1jxNSxYRrWVHPaqta5ojuC9agxNBl"
+                data-width="350"
+                data-show-text="true"
+              >
+                <blockquote
+                  cite="https://www.facebook.com/andy.weber.5682/posts/10160557621352597"
+                  class="fb-xfbml-parse-ignore"
+                >
+                  <p>
+                    Justin was great to work with! He is very knowledgeable and
+                    thorough. He continues to go above and beyond in every
+                    project I send his way because of this I wouldn’t call
+                    anyone else.
+                  </p>
+                  Posted by
+                  <a href="https://www.facebook.com/andy.weber.5682"
+                    >Andy Weber</a
+                  >
+                  on&nbsp;<a
+                    href="https://www.facebook.com/andy.weber.5682/posts/10160557621352597"
+                    >Tuesday, March 28, 2023</a
+                  >
+                </blockquote>
+              </div>
+            </div>
+            <div
+              class="fb-post"
+              data-href="https://www.facebook.com/cody.wibbenmeyer/posts/pfbid035MkpZd3rzXStiFbZupvu8JhsnBA6KUxXUqQE2LAVCBCby2ZbnLCEtSnU16yneunMl"
+              data-width="350"
+              data-show-text="true"
+            >
+              <blockquote
+                cite="https://www.facebook.com/cody.wibbenmeyer/posts/10225752953444869"
+                class="fb-xfbml-parse-ignore"
+              >
+                <p>
+                  got the job done I wanted even when I threw curveballs into
+                  the mix with not being there and then having to come stop...
+                </p>
+                Posted by
+                <a href="#" role="button">Cody Wibbenmeyer</a> on&nbsp;<a
+                  href="https://www.facebook.com/cody.wibbenmeyer/posts/10225752953444869"
+                  >Monday, January 24, 2022</a
+                >
+              </blockquote>
+            </div>
           </div>
-          
         </div>
       </div>
     </section>
